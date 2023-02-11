@@ -648,6 +648,46 @@ footer span a:hover{
   .services .serv-content .card{
       width: 100%;
   }
+  .about .title{
+    font-size: 23px;
+  }
+  .services .title{
+    font-size: 23px;
+  }
+  .skills .title{
+    font-size: 23px;
+  }
+  .contact .title{
+    font-size: 23px;
+  }
+  .about .title::after{
+    font-size: 21px;
+    width: 85%;
+  }
+  .services .title::after{
+    font-size: 21px;
+    width: 85%;
+  }
+  .skills .title::after{
+    font-size: 21px;
+    width: 85%;
+  }
+  .contact .title::after{
+    font-size: 21px;
+    width: 85%;
+  }
+  .services .serv-content{
+    display: flex;
+    justify-content: center;
+  }
+  .services .serv-content .card{
+    width: 250px;
+    padding: 0px;
+    font-size: smaller;
+  }
+  .services .serv-content .card .box{
+    margin: 30px;
+  }
 }
 @media (max-width: 500px) {
   .home .home-content .text-2{
@@ -677,5 +717,48 @@ footer span a:hover{
       width: 35px;
       font-size: 23px;
       line-height: 38px;
+  }
+  .about .title{
+    font-size: 28px;
+  }
+  .services .title{
+    font-size: 28px;
+  }
+  .skills .title{
+    font-size: 28px;
+  }
+  .contact .title{
+    font-size: 28px;
+  }
+  .about .title::after{
+    font-size: 19px;
+    width: 85%;
+  }
+  .services .title::after{
+    font-size: 19px;
+    width: 91%;
+  }
+  .skills .title::after{
+    font-size: 19px;
+    width: 85%;
+  }
+  .contact .title::after{
+    font-size: 19px;
+    width: 85%;
+  }
+  .skills {
+    padding: 40px;
+  }
+  .about {
+    padding: 40px;
+  }
+  .services{
+    padding: 40px;
+  }
+  .home{
+    padding: 20px;
+  }
+  .contact{
+    padding: 40px;
   }
 }
