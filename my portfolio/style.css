@@ -159,7 +159,6 @@ section .title::after{
 /* home section */
 .home{
   display: flex;
-  background: url("images/workplace-with-smartphone-laptop-black-table-top-view-copyspace-background.jpg") no-repeat center;
   height: 100vh;
   background-size: cover;
   color:#fff;
